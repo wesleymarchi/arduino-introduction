@@ -1,4 +1,4 @@
-/* Detecta se uma chave está fechada */
+/* Detecta se uma chave está fechada, 0 (desligada menor que 2.5V) 1 (ligada maior que 2.5V) */
 const int inputPin = 5;
 
 void setup() {
