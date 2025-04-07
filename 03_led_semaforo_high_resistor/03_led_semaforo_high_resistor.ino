@@ -19,12 +19,6 @@ void loop() {
     digitalWrite(ledVerde, LOW);
     delay(5000); // Mantém o vermelho por 5 segundos
 
-    // Amarela (Atenção)
-    digitalWrite(ledVermelho, LOW);
-    digitalWrite(ledAmarelo, HIGH);
-    digitalWrite(ledVerde, LOW);
-    delay(2000); // Mantém o amarelo por 2 segundos
-
     // Verde (Pode passar)
     digitalWrite(ledVermelho, LOW);
     digitalWrite(ledAmarelo, LOW);
